@@ -14,11 +14,10 @@
 		DB42A0912796CA9F00B0BD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB42A08F2796CA9F00B0BD35 /* Main.storyboard */; };
 		DB42A0932796CAA300B0BD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB42A0922796CAA300B0BD35 /* Assets.xcassets */; };
 		DB42A0962796CAA300B0BD35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB42A0942796CAA300B0BD35 /* LaunchScreen.storyboard */; };
-		DB42A09F2796D59B00B0BD35 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DB42A09E2796D59B00B0BD35 /* Alamofire */; };
 		DB42A0A12796F5F100B0BD35 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A0A02796F5F100B0BD35 /* ListViewController.swift */; };
 		DB42A0A72796FD6900B0BD35 /* Domains.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A0A62796FD6900B0BD35 /* Domains.swift */; };
 		DB42A0A927970F7F00B0BD35 /* DomainInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A0A827970F7F00B0BD35 /* DomainInfoViewController.swift */; };
-		DB42A0AC279718B900B0BD35 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = DB42A0AB279718B900B0BD35 /* Toast */; };
+		ECD86FE427984FA8002828F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ECD86FE327984FA7002828F6 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB42A0AC279718B900B0BD35 /* Toast in Frameworks */,
-				DB42A09F2796D59B00B0BD35 /* Alamofire in Frameworks */,
 				352DB71D279849C900735CC6 /* IQKeyboardManagerSwift in Frameworks */,
+				ECD86FE427984FA8002828F6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +52,7 @@
 			children = (
 				DB42A0882796CA9F00B0BD35 /* DnsChecker */,
 				DB42A0872796CA9F00B0BD35 /* Products */,
+				ECD86FE227984FA7002828F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +81,13 @@
 			path = DnsChecker;
 			sourceTree = "<group>";
 		};
+		ECD86FE227984FA7002828F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +105,8 @@
 			);
 			name = DnsChecker;
 			packageProductDependencies = (
-				DB42A09E2796D59B00B0BD35 /* Alamofire */,
-				DB42A0AB279718B900B0BD35 /* Toast */,
 				352DB71C279849C900735CC6 /* IQKeyboardManagerSwift */,
+				ECD86FE327984FA7002828F6 /* Alamofire */,
 			);
 			productName = DnsChecker;
 			productReference = DB42A0862796CA9F00B0BD35 /* DnsChecker.app */;
@@ -317,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 945A94FK6F;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DnsChecker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -346,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 945A94FK6F;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DnsChecker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -424,15 +429,10 @@
 			package = 352DB71B279849C900735CC6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
-		DB42A09E2796D59B00B0BD35 /* Alamofire */ = {
+		ECD86FE327984FA7002828F6 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DB42A09D2796D59B00B0BD35 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		DB42A0AB279718B900B0BD35 /* Toast */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB42A0AA279718B900B0BD35 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
-			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
