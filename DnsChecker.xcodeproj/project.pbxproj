@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352DB71D279849C900735CC6 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 352DB71C279849C900735CC6 /* IQKeyboardManagerSwift */; };
 		DB42A08A2796CA9F00B0BD35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A0892796CA9F00B0BD35 /* AppDelegate.swift */; };
 		DB42A08C2796CA9F00B0BD35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A08B2796CA9F00B0BD35 /* SceneDelegate.swift */; };
 		DB42A08E2796CA9F00B0BD35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB42A08D2796CA9F00B0BD35 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 			files = (
 				DB42A0AC279718B900B0BD35 /* Toast in Frameworks */,
 				DB42A09F2796D59B00B0BD35 /* Alamofire in Frameworks */,
+				352DB71D279849C900735CC6 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,7 @@
 			packageProductDependencies = (
 				DB42A09E2796D59B00B0BD35 /* Alamofire */,
 				DB42A0AB279718B900B0BD35 /* Toast */,
+				352DB71C279849C900735CC6 /* IQKeyboardManagerSwift */,
 			);
 			productName = DnsChecker;
 			productReference = DB42A0862796CA9F00B0BD35 /* DnsChecker.app */;
@@ -131,6 +134,7 @@
 			packageReferences = (
 				DB42A09D2796D59B00B0BD35 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				DB42A0AA279718B900B0BD35 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				352DB71B279849C900735CC6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = DB42A0872796CA9F00B0BD35 /* Products */;
 			projectDirPath = "";
@@ -313,7 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K44P3456PM;
+				DEVELOPMENT_TEAM = 945A94FK6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DnsChecker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -342,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K44P3456PM;
+				DEVELOPMENT_TEAM = 945A94FK6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DnsChecker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -388,6 +392,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		352DB71B279849C900735CC6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
 		DB42A09D2796D59B00B0BD35 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -407,6 +419,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		352DB71C279849C900735CC6 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 352DB71B279849C900735CC6 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		DB42A09E2796D59B00B0BD35 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DB42A09D2796D59B00B0BD35 /* XCRemoteSwiftPackageReference "Alamofire" */;
